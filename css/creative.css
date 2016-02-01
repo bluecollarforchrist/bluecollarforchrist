@@ -172,18 +172,34 @@ aside {
     }
 }
 
-header {
+.bg{
     position: relative;
-    width: 100%;
+    width: 50%;
     min-height: auto;
+    max-height: 250px;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-size: cover;
+    -o-background-size: cover;
+    display:block;
+    float:left;
+}
+header {
+    position: relative;
+    width: 50%;
+    min-height: auto;
+    max-height: 250px;
+    text-align: center;
+    color: #fff;
+    background-image: url(http://artistsandwriters.com/site/wp-content/uploads/2016/01/men-at-work-1.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    display:block;
+    float:left;
+    padding-top:30px;
 }
 
 header .header-content {
@@ -213,7 +229,8 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 75%;
+        margin-top:75px;
     }
 
     header .header-content {
