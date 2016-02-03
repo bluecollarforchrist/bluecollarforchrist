@@ -187,6 +187,7 @@ aside {
 header {
     position: relative;
     width: 100%;
+    margin-top:100px;
     min-height: auto;
     max-height: 250px;
     text-align: center;
